@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color:rgba(0, 0, 0, 0.925);
+    overflow-y: hidden;
+}
+.main{
+    border: 2px solid gray;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    padding:20px;
+    background-image: linear-gradient( to right bottom,rgb(20, 216, 118),rgb(149, 106, 206) );
+}
+.main input{
+    width: 70%;
+    height: 30px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.main button{
+    margin-left: 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    border:none;
+}
+#image{
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.main h2{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -40px;
+}
+.main p{
+    color: white;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.humid,.wind{
+    display: flex;
+}
+.opt i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.opt1{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+#def{
+    font-size: 16px;
+}
+#copy{
+    color: white;
+    margin: 20px; 
+    font-size: 20px;
+    margin-left: 50px;
+}
+#content{
+    display: none;
+}
+#error{
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    margin: 5px 5px;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        margin: 100px 0;
+    }
+    .main{
+        width: 80vw;
+        margin-left: 0;
+    }
+}

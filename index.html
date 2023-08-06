@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <section>    
+    <div class="main">
+        <input type="text" id="inp" placeholder="Enter the city name">
+        <button><i class="fa-solid fa-magnifying-glass" style="color: #4e5155;"></i></button> 
+        <br>
+        <p id = "error"></p>
+        <div id="content">
+        <img src="img/clear.png" id="image" alt="Weather">
+        <h2 id="deg">22<sup>o</sup>C</h2>
+        <p id="place">New York</p>
+        <div class="sub">
+            <div class="humid">
+                <div class="opt">
+                    <img src="img/humidity.png" alt="humid" width="30px" height="30px" style="margin-top: 10px;
+                    margin-right:10px ;">
+                </div>
+                <div class="opt1">
+                    <p1 id="humi">70%</p1>
+                    <p id="def">Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <div class="opt">
+                    <i class="fa-solid fa-wind" style="color: #ffffff;"></i>
+                </div>
+                <div class="opt1">
+                    <p1 id="speed">18km/h</p1>
+                    <p id="def">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <h2 id="copy">&copy; AY DEVELOPER @ 2023</h2>
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/6efc7d9ab3.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
